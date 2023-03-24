@@ -7,7 +7,7 @@ export default function Header({search}) {
     <div className={styles.div}>
       <div className={styles.margin}>
         <div className={styles.div__flex}>
-          <img src="/public/logo.png" alt="Logo hamburgueria" />
+          <img src="../../public/assets/logo.png" alt="Logo hamburgueria" />
           <Search search={search}/>
         </div>
       </div>
