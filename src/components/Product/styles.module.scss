@@ -1,0 +1,32 @@
+@import 'src/app.scss';
+.div{
+    border: 2px solid $grey-20;
+    min-width: 220px;
+    max-width: 220px;
+    height: 400px;
+    border-radius: 8px; 
+    
+    &__img{
+        background-color: $grey-0;
+        text-align: center;
+        img{
+            width: 70%;
+            height: 160px;
+        }
+    }
+    &__container{
+        margin: 0.5em 1em;
+        h2{
+            margin-bottom: 0.5em;
+        }
+        p{
+            font-size: 16px;
+            color: $grey-50;
+            margin-bottom: 0.5em;
+        }
+        span{
+            color: $color-primary;
+            font-weight: 600;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+$color-primary: #27AE60;
+$color-primary-50:#93D7AF;
+$color-secondary: #EB5757;
+$grey-0:#F5F5F5;
+$grey-20:#E0E0E0;
+$grey-50:#828282;
+$grey-100:#333333;
+//feedback pallete
+$negative:#E60000;
+$warning:#FFCD07;
+$sucess:#168821;
+$information:#155BCB;
+$white: #FFFFFF;
+//fonte
+$font: 'poppins', sans-serif;
+
+
+*{
+    font-family: $font;
+}
+.dark-mode{
+    $color-primary: #114728;
+    $color-primary-50: #79af90;
+    $grey-20: #020202;
+    background-color: #0A0A0A;
+}

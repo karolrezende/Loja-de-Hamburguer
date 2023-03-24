@@ -1,0 +1,31 @@
+@import 'src/app.scss';
+.div{
+    background-color: $grey-0;
+    img{
+        margin-bottom: .5em;
+        width: 150px;
+    }
+    &__flex{
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.margin{
+    margin: 0 2em;
+}
+@media screen and (min-width : 1000px) {
+    .div{
+        &__flex{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    .margin{
+        margin: 0 5em;
+    }
+}

@@ -1,0 +1,22 @@
+.div_app{
+    margin: 1em 2em;
+    &_productList{
+        overflow-x: scroll;
+        display: flex;
+        gap: 30px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .div_app{
+        display: grid;
+        grid-template-columns: 2.5fr 1fr;
+
+        margin: 2em 5em 0 5em;
+        &_productList{
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            overflow: hidden;
+        }
+    }
+}
